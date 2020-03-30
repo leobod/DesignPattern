@@ -18,7 +18,7 @@ public class Sorter {
         Sorter s = new Sorter();
         s.sort(dogs);
         for (Dog dog: dogs) {
-            System.out.print(dog.toString());
+            System.out.println(dog.toString());
         }
     }
 }
