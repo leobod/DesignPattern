@@ -14,11 +14,11 @@ public class Sorter<T extends CustomComparable<T>> {
     }
 
     public static void main(String[] args) {
-        Dog[] dogs = {new Dog(3), new Dog(5), new Dog(1)};
+        Cat[] cats = {new Cat(3), new Cat(5), new Cat(1)};
         Sorter s = new Sorter();
-        s.sort(dogs);
-        for (Dog dog: dogs) {
-            System.out.print(dog.toString());
+        s.sort(cats);
+        for (Cat cat: cats) {
+            System.out.println(cat.toString());
         }
     }
 }
