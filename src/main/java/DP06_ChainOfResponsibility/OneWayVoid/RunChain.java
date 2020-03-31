@@ -1,5 +1,10 @@
 package DP06_ChainOfResponsibility.OneWayVoid;
 
+/**
+ * 通过使用ChainOfResponsibility来实现一条简单的过滤链条
+ * 使用的无返回值方式。
+ */
+
 public class RunChain {
 
     static void oneChain() {
